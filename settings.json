@@ -22,7 +22,7 @@
 	"editor.formatOnSave": true,
 	"editor.renderWhitespace": "none",
 	"editor.unicodeHighlight.ambiguousCharacters": false,
-	"editor.tabSize": 2,
+	"editor.tabSize": 4,
 
 	"workbench.startupEditor": "none",
 	"workbench.layoutControl.enabled": false,
@@ -46,6 +46,7 @@
 	"git.confirmSync": false,
 
 	"prettier.configPath": ".prettierrc",
+	"prettier.useTabs": true,
 
 	"terminal.integrated.env.osx": {},
 	"terminal.integrated.fontSize": 16,
@@ -69,5 +70,7 @@
 	"go.formatTool": "gofmt",
 	"[go]": {
 		"editor.defaultFormatter": "golang.go"
-	}
+	},
+
+	"godotTools.lsp.serverPort": 6005
 }
