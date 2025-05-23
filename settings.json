@@ -1,76 +1,82 @@
 {
+	"explorer.confirmDelete": false,
+	"vim.useSystemClipboard": true,
+	"vim.foldfix": true,
+	"vim.useCtrlKeys": true,
+	"vim.commandLineModeKeyBindings": [
+		{ "before": ["W"], "after": ["w"] },
+		{ "before": ["w:w"], "after": ["w"] }
+	],
+	"vim.handleKeys": {
+		"<C-w>": false
+	},
+	"php.validate.executablePath": "C:\\php\\php.exe",
+	"workbench.colorTheme": "Pitch Black",
 	"editor.cursorBlinking": "phase",
+	"diffEditor.wordWrap": "off",
 	"editor.accessibilitySupport": "off",
 	"editor.wrappingIndent": "none",
 	"editor.wordWrapColumn": 8000,
 	"editor.cursorStyle": "line",
 	"editor.insertSpaces": false,
-	"editor.wordSeparators": "/\\()\"':,.;<>~!@#$%^&*|+=[]{}?-",
+	"editor.wordSeparators": "/\\()\"':,.;<>~!@#$%^&*|+=[]{}`?-",
 	"editor.wordWrap": "off",
+	"security.workspace.trust.untrustedFiles": "open",
 	"editor.rulers": [200],
 	"editor.cursorSmoothCaretAnimation": "on",
+	"html.format.wrapLineLength": 200,
+	"html.format.wrapAttributes": "force-expand-multiline",
 	"editor.smoothScrolling": true,
-	"editor.fontFamily": "'Fira Code', serif",
+	"git.enableSmartCommit": true,
+	"git.autofetch": true,
+	"editor.fontFamily": "'Fira Code', Anonymous Pro, monospace",
+	"window.nativeTabs": true,
+	"typescript.updateImportsOnFileMove.enabled": "always",
 	"editor.fontLigatures": true,
-	"editor.fontSize": 14,
 	"editor.defaultFormatter": "esbenp.prettier-vscode",
 	"editor.codeActionsOnSave": {
 		"source.fixAll.eslint": "explicit"
 	},
-	"editor.minimap.renderCharacters": false,
-	"editor.minimap.enabled": false,
-	"editor.formatOnSave": true,
-	"editor.renderWhitespace": "none",
-	"editor.unicodeHighlight.ambiguousCharacters": false,
-	"editor.tabSize": 4,
-
-	"workbench.startupEditor": "none",
-	"workbench.layoutControl.enabled": false,
-
-	"explorer.confirmDelete": false,
 	"explorer.confirmDragAndDrop": false,
-	"explorer.fileNesting.expand": false,
-	"explorer.compactFolders": false,
-
-	"vim.useSystemClipboard": true,
-	"vim.foldfix": true,
-	"vim.useCtrlKeys": true,
-	"vim.commandLineModeKeyBindings": [{ "before": ["W"], "after": ["w"] }],
-	"vim.handleKeys": {
-		"<C-w>": false,
-		"<C-p>": false
-	},
-
-	"git.enableSmartCommit": true,
-	"git.autofetch": true,
-	"git.confirmSync": false,
-
-	"prettier.configPath": ".prettierrc",
-	"prettier.useTabs": true,
-
-	"terminal.integrated.env.osx": {},
-	"terminal.integrated.fontSize": 16,
-
-	"npm.packageManager": "auto",
-	"liveServer.settings.donotShowInfoMsg": true,
-
-	"window.commandCenter": false,
 	"breadcrumbs.enabled": false,
-	"update.showReleaseNotes": false,
-	"diffEditor.ignoreTrimWhitespace": false,
-	"scm.compactFolders": false,
-
-	"diffEditor.wordWrap": "off",
-	"security.workspace.trust.untrustedFiles": "open",
-	"html.format.wrapLineLength": 200,
-	"html.format.wrapAttributes": "force-expand-multiline",
-	"javascript.updateImportsOnFileMove.enabled": "always",
-	"typescript.updateImportsOnFileMove.enabled": "always",
-	"go.toolsManagement.autoUpdate": true,
-	"go.formatTool": "gofmt",
+	"editor.renderWhitespace": "none",
 	"[go]": {
 		"editor.defaultFormatter": "golang.go"
 	},
-
-	"godotTools.lsp.serverPort": 6005
+	"go.toolsManagement.autoUpdate": true,
+	"go.formatTool": "gofmt",
+	"editor.unicodeHighlight.ambiguousCharacters": false,
+	"javascript.updateImportsOnFileMove.enabled": "always",
+	"prettier.printWidth": 150,
+	"terminal.integrated.env.osx": {},
+	"update.showReleaseNotes": false,
+	"workbench.layoutControl.enabled": false,
+	"window.commandCenter": false,
+	"git.confirmSync": false,
+	"editor.minimap.renderCharacters": false,
+	"editor.minimap.enabled": false,
+	"diffEditor.ignoreTrimWhitespace": false,
+	"explorer.fileNesting.expand": false,
+	"explorer.compactFolders": false,
+	"scm.compactFolders": false,
+	"terminal.integrated.fontSize": 15,
+	"editor.fontSize": 14,
+	"prettier.configPath": ".prettierrc.json",
+	"prettier.quoteProps": "preserve",
+	"npm.packageManager": "auto",
+	"editor.formatOnSave": true,
+	"prettier.useTabs": true,
+	"workbench.tree.renderIndentGuides": "none",
+	"indentRainbow.lightIndicatorStyleLineWidth": 2,
+	"indentRainbow.indicatorStyle": "light",
+	"indentRainbow.colors": [
+		"rgba(0, 40, 0, 1)", // Nearly black green
+		"rgba(30, 40, 0, 1)", // Nearly black olive
+		"rgba(40, 40, 0, 1)", // Nearly black yellow
+		"rgba(45, 20, 0, 1)", // Very dark burnt orange
+		"rgba(40, 0, 0, 1)", // Deep wine red
+		"rgba(40, 10, 30, 1)", // Dark raspberry/plum
+		"rgba(25, 0, 45, 1)", // Deep violet
+		"rgba(0, 0, 40, 1)" // Very dark navy blue
+	]
 }
