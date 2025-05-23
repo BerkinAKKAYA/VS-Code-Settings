@@ -1,8 +1,35 @@
 {
-	"explorer.confirmDelete": false,
-	"vim.useSystemClipboard": true,
+	"editor.accessibilitySupport": "off",
+	"editor.cursorBlinking": "phase",
+	"editor.cursorSmoothCaretAnimation": "on",
+	"editor.cursorStyle": "line",
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"editor.fontFamily": "'Fira Code', Anonymous Pro, monospace",
+	"editor.fontLigatures": true,
+	"editor.fontSize": 14,
+	"editor.formatOnSave": true,
+	"editor.insertSpaces": false,
+	"editor.minimap.enabled": false,
+	"editor.minimap.renderCharacters": false,
+	"editor.renderWhitespace": "none",
+	"editor.rulers": [200],
+	"editor.smoothScrolling": true,
+	"editor.unicodeHighlight.ambiguousCharacters": false,
+	"editor.wordSeparators": "/\\()\"':,.;<>~!@#$%^&*|+=[]{}`?-",
+	"editor.wordWrap": "off",
+	"editor.wordWrapColumn": 8000,
+	"editor.wrappingIndent": "none",
+
+	"terminal.integrated.env.osx": {},
+	"terminal.integrated.fontSize": 16,
+
+	"git.autofetch": true,
+	"git.confirmSync": false,
+	"git.enableSmartCommit": true,
+
 	"vim.foldfix": true,
 	"vim.useCtrlKeys": true,
+	"vim.useSystemClipboard": true,
 	"vim.commandLineModeKeyBindings": [
 		{ "before": ["W"], "after": ["w"] },
 		{ "before": ["w:w"], "after": ["w"] }
@@ -10,65 +37,42 @@
 	"vim.handleKeys": {
 		"<C-w>": false
 	},
-	"php.validate.executablePath": "C:\\php\\php.exe",
-	"workbench.colorTheme": "Pitch Black",
-	"editor.cursorBlinking": "phase",
-	"diffEditor.wordWrap": "off",
-	"editor.accessibilitySupport": "off",
-	"editor.wrappingIndent": "none",
-	"editor.wordWrapColumn": 8000,
-	"editor.cursorStyle": "line",
-	"editor.insertSpaces": false,
-	"editor.wordSeparators": "/\\()\"':,.;<>~!@#$%^&*|+=[]{}`?-",
-	"editor.wordWrap": "off",
-	"security.workspace.trust.untrustedFiles": "open",
-	"editor.rulers": [200],
-	"editor.cursorSmoothCaretAnimation": "on",
-	"html.format.wrapLineLength": 200,
-	"html.format.wrapAttributes": "force-expand-multiline",
-	"editor.smoothScrolling": true,
-	"git.enableSmartCommit": true,
-	"git.autofetch": true,
-	"editor.fontFamily": "'Fira Code', Anonymous Pro, monospace",
-	"window.nativeTabs": true,
-	"typescript.updateImportsOnFileMove.enabled": "always",
-	"editor.fontLigatures": true,
-	"editor.defaultFormatter": "esbenp.prettier-vscode",
-	"editor.codeActionsOnSave": {
-		"source.fixAll.eslint": "explicit"
-	},
+
+	"explorer.compactFolders": false,
+	"explorer.confirmDelete": false,
 	"explorer.confirmDragAndDrop": false,
+	"explorer.fileNesting.expand": false,
+
 	"breadcrumbs.enabled": false,
-	"editor.renderWhitespace": "none",
+	"security.workspace.trust.untrustedFiles": "open",
+	"update.showReleaseNotes": false,
+	"window.commandCenter": false,
+	"window.nativeTabs": true,
+	"workbench.colorTheme": "Pitch Black",
+	"workbench.layoutControl.enabled": false,
+	"workbench.tree.renderIndentGuides": "none",
+
+	"npm.packageManager": "auto",
+
+	"diffEditor.ignoreTrimWhitespace": false,
+	"diffEditor.wordWrap": "off",
+
+	"javascript.updateImportsOnFileMove.enabled": "always",
+	"typescript.updateImportsOnFileMove.enabled": "always",
+	"html.format.wrapAttributes": "force-expand-multiline",
+	"html.format.wrapLineLength": 200,
+
+	"go.formatTool": "gofmt",
+	"go.toolsManagement.autoUpdate": true,
 	"[go]": {
 		"editor.defaultFormatter": "golang.go"
 	},
-	"go.toolsManagement.autoUpdate": true,
-	"go.formatTool": "gofmt",
-	"editor.unicodeHighlight.ambiguousCharacters": false,
-	"javascript.updateImportsOnFileMove.enabled": "always",
-	"prettier.printWidth": 150,
-	"terminal.integrated.env.osx": {},
-	"update.showReleaseNotes": false,
-	"workbench.layoutControl.enabled": false,
-	"window.commandCenter": false,
-	"git.confirmSync": false,
-	"editor.minimap.renderCharacters": false,
-	"editor.minimap.enabled": false,
-	"diffEditor.ignoreTrimWhitespace": false,
-	"explorer.fileNesting.expand": false,
-	"explorer.compactFolders": false,
-	"scm.compactFolders": false,
-	"terminal.integrated.fontSize": 15,
-	"editor.fontSize": 14,
+
 	"prettier.configPath": ".prettierrc.json",
+	"prettier.printWidth": 150,
 	"prettier.quoteProps": "preserve",
-	"npm.packageManager": "auto",
-	"editor.formatOnSave": true,
 	"prettier.useTabs": true,
-	"workbench.tree.renderIndentGuides": "none",
-	"indentRainbow.lightIndicatorStyleLineWidth": 2,
-	"indentRainbow.indicatorStyle": "light",
+
 	"indentRainbow.colors": [
 		"rgba(0, 40, 0, 1)", // Nearly black green
 		"rgba(30, 40, 0, 1)", // Nearly black olive
@@ -78,5 +82,7 @@
 		"rgba(40, 10, 30, 1)", // Dark raspberry/plum
 		"rgba(25, 0, 45, 1)", // Deep violet
 		"rgba(0, 0, 40, 1)" // Very dark navy blue
-	]
+	],
+	"indentRainbow.indicatorStyle": "light",
+	"indentRainbow.lightIndicatorStyleLineWidth": 2
 }
