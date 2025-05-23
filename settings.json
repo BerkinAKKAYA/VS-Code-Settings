@@ -27,17 +27,6 @@
 	"git.confirmSync": false,
 	"git.enableSmartCommit": true,
 
-	"vim.foldfix": true,
-	"vim.useCtrlKeys": true,
-	"vim.useSystemClipboard": true,
-	"vim.commandLineModeKeyBindings": [
-		{ "before": ["W"], "after": ["w"] },
-		{ "before": ["w:w"], "after": ["w"] }
-	],
-	"vim.handleKeys": {
-		"<C-w>": false
-	},
-
 	"explorer.compactFolders": false,
 	"explorer.confirmDelete": false,
 	"explorer.confirmDragAndDrop": false,
@@ -48,7 +37,7 @@
 	"update.showReleaseNotes": false,
 	"window.commandCenter": false,
 	"window.nativeTabs": true,
-	"workbench.colorTheme": "Pitch Black",
+	"workbench.colorTheme": "Gruvbox Dark Hard", // jdinhlife -> Gruvbox Theme
 	"workbench.layoutControl.enabled": false,
 	"workbench.tree.renderIndentGuides": "none",
 
@@ -62,26 +51,41 @@
 	"html.format.wrapAttributes": "force-expand-multiline",
 	"html.format.wrapLineLength": 200,
 
+	// vscodevim/Vim
+	"vim.foldfix": true,
+	"vim.useCtrlKeys": true,
+	"vim.useSystemClipboard": true,
+	"vim.commandLineModeKeyBindings": [
+		{ "before": ["W"], "after": ["w"] },
+		{ "before": ["w:w"], "after": ["w"] }
+	],
+	"vim.handleKeys": {
+		"<C-w>": false
+	},
+
+	// go.dev/Go
 	"go.formatTool": "gofmt",
 	"go.toolsManagement.autoUpdate": true,
 	"[go]": {
 		"editor.defaultFormatter": "golang.go"
 	},
 
+	// prettier/prettier
 	"prettier.configPath": ".prettierrc.json",
 	"prettier.printWidth": 150,
 	"prettier.quoteProps": "preserve",
 	"prettier.useTabs": true,
 
+	// oderwat/indent-rainbow
 	"indentRainbow.colors": [
-		"rgba(0, 40, 0, 1)", // Nearly black green
-		"rgba(30, 40, 0, 1)", // Nearly black olive
-		"rgba(40, 40, 0, 1)", // Nearly black yellow
-		"rgba(45, 20, 0, 1)", // Very dark burnt orange
-		"rgba(40, 0, 0, 1)", // Deep wine red
-		"rgba(40, 10, 30, 1)", // Dark raspberry/plum
-		"rgba(25, 0, 45, 1)", // Deep violet
-		"rgba(0, 0, 40, 1)" // Very dark navy blue
+		"#282828", // bg0 - deep gray, still distinct from bg_hard
+		"#3c3836", // bg2 - soft gray-brown
+		"#504945", // bg3 - muted brown
+		"#665c54", // gray - earthy brown-gray
+		"#7c6f64", // fg4 - warmer gray
+		"#928374", // fg3 - taupe
+		"#a89984", // fg2 - beige
+		"#bdae93" // fg1 - light cream
 	],
 	"indentRainbow.indicatorStyle": "light",
 	"indentRainbow.lightIndicatorStyleLineWidth": 2
